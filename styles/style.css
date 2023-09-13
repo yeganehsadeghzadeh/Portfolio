@@ -25,6 +25,13 @@ h2 {
   font-weight: 400;
 }
 
+h5 {
+  margin-bottom: 5px;
+  color: #a0a0a0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 /* Container */
 
 .header,
@@ -155,4 +162,108 @@ nav ul li:not(:last-child)::after {
 
 .sections {
   width: 700px;
+  border-left: 1px solid #333533;
+  padding-left: 50px;
 }
+
+.contact {
+  display: flex;
+}
+
+.contact div {
+  width: 50%;
+}
+
+.contact p {
+  margin-top: 0;
+}
+
+.contact p i {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.contact p i:hover {
+  color: #333533;
+}
+
+.socials li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.socials li span {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+}
+
+.socials li span.twitter {
+  background-image: url(../assets/icons/social/twitter.png);
+}
+
+.socials li:hover span.twitter {
+  background-image: url(../assets/icons/social/twitter-hover.png);
+}
+
+
+.socials li span.instagram {
+  background-image: url(../assets/icons/social/instagram.png);
+}
+
+.socials li:hover span.instagram {
+  background-image: url(../assets/icons/social/instagram-hover.png);
+}
+
+
+
+.socials li span.stackoverflow {
+  background-image: url(../assets/icons/social/stackoverflow.png);
+}
+
+.socials li:hover span.stackoverflow {
+  background-image: url(../assets/icons/social/stackoverflow-hover.png);
+}
+
+
+
+.socials li span.github {
+  background-image: url(../assets/icons/social/github.png);
+}
+
+.socials li:hover span.github {
+  background-image: url(../assets/icons/social/github-hover.png);
+}
+
+
+
+.socials li span.linkedin {
+  background-image: url(../assets/icons/social/linkedin.png);
+}
+
+.socials li:hover span.linkedin {
+  background-image: url(../assets/icons/social/linkedin-hover.png);
+}
+
+
+
+.socials li span.whatsapp {
+  background-image: url(../assets/icons/social/whatsapp.png);
+}
+
+.socials li:hover span.whatsapp {
+  background-image: url(../assets/icons/social/whatsapp-hover.png);
+}
+
+
+
+.socials li span.telegram {
+  background-image: url(../assets/icons/social/telegram.png);
+}
+
+.socials li:hover span.telegram {
+  background-image: url(../assets/icons/social/telegram-hover.png);
+}
+
