@@ -49,29 +49,28 @@ h6 {
 
 .header {
   background-color: #333533;
-  height: 376px;
+  height: 200px;
   align-items: center;
 }
 
 .header img {
-  /* width: 290px; */
-  height: 290px;
+  height: 228px;
   border-radius: 50%;
 }
 
 .header .title {
-  margin: 0 50px;
+  margin: 0 50px 0 30px;
 }
 
 .header .title h1 {
-  font-size: 56px;
+  font-size: 39px;
   margin: 0;
   line-height: 1;
 }
 
 .header .position {
   color: #f5f5f5;
-  font-size: 32px;
+  font-size: 26px;
   margin: 40px 0;
 }
 
@@ -85,7 +84,14 @@ h6 {
 .button {
   border: 1px solid #ffd100;
   border-radius: 4px;
-  padding: 8px 24px;
+  padding: 8px 15px;
+}
+
+.button p {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
 }
 
 .button:hover,
