@@ -2,7 +2,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
+  transition: all 0.3s;
 }
 
 body {
@@ -30,6 +30,10 @@ h5 {
   color: #a0a0a0;
   font-weight: 500;
   font-size: 18px;
+}
+
+h6 {
+  margin: 0;
 }
 
 /* Container */
@@ -161,7 +165,7 @@ nav ul li:not(:last-child)::after {
 /* sections */
 
 .sections {
-  width: 700px;
+  width: 800px;
   border-left: 1px solid #333533;
   padding-left: 50px;
 }
@@ -305,4 +309,83 @@ nav ul li:not(:last-child)::after {
   margin: 0;
   font-size: 16px;
   line-height: 16px;
+}
+
+/* My projects */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  border: 1px solid #a0a0a0;
+  border-radius: 8px;
+  padding: 11px;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.project .title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.project .description {
+  font-size: 14px;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tech ul li {
+  display: inline-block;
+}
+
+.tech ul li img {
+  width: 24px;
+}
+
+.project .buttons {
+  display: flex;
+}
+
+.project .buttons a {
+  width: 50%;
+  color: #333533;
+  font-size: 13px;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.project .buttons a:last-child,
+.project .buttons a:first-child:hover {
+  border: 1px solid #333533;
+  border-radius: 4px;
+}
+
+.project .buttons a:last-child {
+  margin-left: 4px;
+}
+
+.project .buttons a:last-child:hover {
+  color: #f5f5f5;
+  background-color: #333533;
+}
+
+.project .buttons a i {
+  margin-right: 5px;
 }
