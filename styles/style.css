@@ -208,7 +208,6 @@ nav ul li:not(:last-child)::after {
   background-image: url(../assets/icons/social/twitter-hover.png);
 }
 
-
 .socials li span.instagram {
   background-image: url(../assets/icons/social/instagram.png);
 }
@@ -216,8 +215,6 @@ nav ul li:not(:last-child)::after {
 .socials li:hover span.instagram {
   background-image: url(../assets/icons/social/instagram-hover.png);
 }
-
-
 
 .socials li span.stackoverflow {
   background-image: url(../assets/icons/social/stackoverflow.png);
@@ -227,8 +224,6 @@ nav ul li:not(:last-child)::after {
   background-image: url(../assets/icons/social/stackoverflow-hover.png);
 }
 
-
-
 .socials li span.github {
   background-image: url(../assets/icons/social/github.png);
 }
@@ -236,8 +231,6 @@ nav ul li:not(:last-child)::after {
 .socials li:hover span.github {
   background-image: url(../assets/icons/social/github-hover.png);
 }
-
-
 
 .socials li span.linkedin {
   background-image: url(../assets/icons/social/linkedin.png);
@@ -247,8 +240,6 @@ nav ul li:not(:last-child)::after {
   background-image: url(../assets/icons/social/linkedin-hover.png);
 }
 
-
-
 .socials li span.whatsapp {
   background-image: url(../assets/icons/social/whatsapp.png);
 }
@@ -256,8 +247,6 @@ nav ul li:not(:last-child)::after {
 .socials li:hover span.whatsapp {
   background-image: url(../assets/icons/social/whatsapp-hover.png);
 }
-
-
 
 .socials li span.telegram {
   background-image: url(../assets/icons/social/telegram.png);
@@ -267,3 +256,53 @@ nav ul li:not(:last-child)::after {
   background-image: url(../assets/icons/social/telegram-hover.png);
 }
 
+/* Skills */
+
+.skills li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a0a0a0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px 24px;
+}
+
+.skills li span:last-child {
+  font-weight: 300;
+}
+
+.skills li img {
+  vertical-align: middle;
+  margin-right: 6px;
+  width: 40px;
+}
+
+.skills .title {
+  font-weight: 900;
+}
+
+.skills li i {
+  padding: 10px 12px;
+  border-left: 1px solid #a0a0a0;
+}
+
+.other-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-skills li {
+  border: 1px solid #a0a0a0;
+  border-radius: 24px;
+  display: inline-block;
+  padding: 9px 24px;
+  margin-bottom: 18px;
+}
+
+.other-skills li p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+}
