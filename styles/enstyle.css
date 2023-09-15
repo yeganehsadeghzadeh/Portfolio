@@ -1,0 +1,41 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.button i {
+  margin-right: 6px;
+}
+
+.skills li i {
+  border-left: 1px solid #a0a0a0;
+}
+
+.skills li img {
+  margin-right: 6px;
+}
+
+.contact p i {
+  margin-left: 10px;
+}
+
+.sections {
+  width: 800px;
+  border-left: 1px solid #333533;
+  padding-left: 50px;
+}
+
+nav ul li:not(:last-child)::after {
+  content: "";
+  display: block;
+  border-left: 1px dashed #333533;
+  height: 48px;
+  margin: 16px 0 16px 21px;
+}
+
+nav ul li .marker {
+  line-height: 44px;
+}
+
+.project .buttons a i {
+  margin-right: 5px;
+}

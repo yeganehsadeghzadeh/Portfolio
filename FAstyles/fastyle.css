@@ -1,0 +1,53 @@
+body {
+  font-family: "samim";
+}
+
+.button i {
+  margin-left: 6px;
+}
+
+.skills li i {
+  border-right: 1px solid #a0a0a0;
+}
+
+.skills li img {
+  margin-left: 6px;
+}
+
+.contact p i {
+  margin-right: 10px;
+}
+
+.sections {
+  width: 800px;
+  border-right: 1px solid #333533;
+  padding-right: 50px;
+}
+
+nav ul li:not(:last-child)::after {
+  content: "";
+  display: block;
+  border-right: 1px dashed #333533;
+  height: 48px;
+  margin: 16px 33px 16px 0;
+}
+
+nav ul li .marker {
+  line-height: 46px;
+}
+
+.other-skills {
+  font-family: "Poppins";
+}
+
+.other-skills li {
+  margin-right: 3px;
+}
+
+.project .buttons {
+  flex-direction: row-reverse;
+}
+
+.project .buttons a i {
+  margin-left: 5px;
+}
